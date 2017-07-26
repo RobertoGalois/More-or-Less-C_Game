@@ -136,20 +136,20 @@ signed short    select_level(void)
 */
 signed short    select_max_value(signed short p_level)
 {
-    switch(p_level)
-    {
-        case 1:
-            return (100);
-        break;
-        case 2:
-            return (1000);
-        break;
-        case 3:
-            return (10000);
-        break;
-        default:
-            return (0);
-    }
+                switch(p_level)
+                {
+                    case 1:
+                    return (100);
+                    break;
+                    case 2:
+                        return (1000);
+                    break;
+                    case 3:
+                        return (10000);
+                    break;
+                    default:
+                        return (0);
+                }
 }
 
 /*
